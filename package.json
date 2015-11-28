@@ -1,0 +1,27 @@
+{
+  "name": "chirper",
+  "version": "0.0.1",
+  "description": "A very simple twitter clone built with React and Flux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eragnew/chirper-react-flux-demo-app.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eragnew/chirper-react-flux-demo-app/issues"
+  },
+  "homepage": "https://github.com/eragnew/chirper-react-flux-demo-app#readme",
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-plumber": "^1.0.1",
+    "reactify": "^1.1.1",
+    "through2": "^2.0.0"
+  }
+}
