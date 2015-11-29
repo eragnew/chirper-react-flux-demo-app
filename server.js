@@ -3,8 +3,8 @@ var app = express();
 var login = require('./login');
 
 app.set('view engine', 'ejs')
-  .use(express.static('./public'));
-  .use(login.routes);
+  .use(express.static('./public'))
+  .use(login.routes)
   .use(require('./chirps'));
 
 app.get('*', login.required, function(req, res) {
