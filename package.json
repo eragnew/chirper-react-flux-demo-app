@@ -1,6 +1,6 @@
 {
   "name": "chirper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A very simple twitter clone built with React and Flux",
   "main": "index.js",
   "scripts": {
